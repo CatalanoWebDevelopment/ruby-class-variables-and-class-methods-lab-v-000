@@ -10,13 +10,15 @@ class Song
     @@count +=1
     @@name = name
     @@artists << artist
-
+    
   end
 
   def self.count
     @@count
   end
 
-  
+  def name
+    @@name
+  end
 
 end
