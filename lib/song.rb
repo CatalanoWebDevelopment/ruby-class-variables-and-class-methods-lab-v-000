@@ -23,7 +23,7 @@ class Song
   end
 
   def genre
-    @@genres[genre] = genre
+    @@genres
   end
 
 end
