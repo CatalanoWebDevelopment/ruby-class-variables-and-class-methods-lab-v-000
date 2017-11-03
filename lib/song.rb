@@ -21,4 +21,8 @@ class Song
     @@name
   end
 
+  def genre
+    @@genres[genre] = genre
+  end
+
 end
