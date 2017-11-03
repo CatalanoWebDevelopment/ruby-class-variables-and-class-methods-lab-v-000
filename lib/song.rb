@@ -22,8 +22,8 @@ class Song
     @@name
   end
 
-  def genre
-    @@genres
+  def artist
+    @@artist
   end
 
 end
