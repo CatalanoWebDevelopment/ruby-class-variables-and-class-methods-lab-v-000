@@ -40,6 +40,7 @@ class Song
     self.artists.each do |artist|
       artist_count[artist] = @name.count
     end
+    artist_count
   end
-  artist_count
+  
 end
